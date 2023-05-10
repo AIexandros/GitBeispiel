@@ -13,14 +13,17 @@ public class Main
         int summe = 0;
 
         for(int i = 1; i <= obereGrenze; ++i)
+
         {
-            summe += i;
+            summe = summe + i;
         }
         
         int mult = 1;
+
         for(int i = 2; i <= obereGrenze; ++i)
+
         {
-            mult *= i;
+            mult = mult * i;
         }
         
         System.out.println("Summe: " + summe + " Mult: " + mult);
